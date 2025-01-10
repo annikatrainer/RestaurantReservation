@@ -1,0 +1,13 @@
+{
+  "name": "delete",
+  "version": "1.0.0",
+  "description": "Manager Delete Restaurant",
+  "main": "index.mjs",
+  "repository": "TBA",
+  "author": "Daniel Damasceno",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
