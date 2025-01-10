@@ -2,10 +2,7 @@ import mysql from 'mysql';
 export const handler = async (event) => {
 
   var pool = mysql.createPool({
-    host: "tables4udb.cvms8kiuo53g.us-east-1.rds.amazonaws.com",
-    user: "calcAdmin",
-    password: "Sabaidee2035*",
-    database: "tables4U"
+    // redacted but contained database connection  
   });
 
 

@@ -4,10 +4,7 @@ import { exit } from "process";
 export const handler = async (event) => {
   // get credentials from the db_access layer (loaded separately via AWS console)
   var pool = mysql.createPool({
-    host: "tables4udb.cvms8kiuo53g.us-east-1.rds.amazonaws.com",
-    user: "calcAdmin",
-    password: "Sabaidee2035*",
-    database: "tables4U",
+    // redacted but contained database connection  
   });
 
   // date format is 2008-08-22
